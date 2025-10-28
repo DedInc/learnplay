@@ -1,0 +1,24 @@
+architectury {
+    common rootProject.enabled_platforms.split(',')
+}
+
+repositories {
+    maven {
+        name = 'NeoForged'
+        url = 'https://maven.neoforged.net/releases'
+    }
+}
+
+dependencies {
+    // We don't depend on a specific Forge/NeoForge loader here
+    // The actual forge/neoforge modules will depend on this
+
+    // Fabric Loader for @Environment annotations (compile-time only)
+    // This is needed because common module uses @Environment annotations
+    compileOnly "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
+
+    // Architectury API
+    modApi "dev.architectury:architectury:$rootProject.architectury_api_version"
+
+    compileOnly(project(path: ':common', configuration: 'namedElements')) { transitive = false }
+}

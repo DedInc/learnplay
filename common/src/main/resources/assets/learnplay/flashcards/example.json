@@ -1,0 +1,212 @@
+{
+  "id": "example_hierarchical",
+  "name": "Example: Hierarchical Learning Deck",
+  "description": "A comprehensive example demonstrating the hierarchical category/subcategory structure for organizing flashcards",
+  "enabled": true,
+  "categories": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "description": "Mathematical concepts and operations",
+      "subcategories": [
+        {
+          "id": "arithmetic",
+          "name": "Arithmetic",
+          "description": "Basic arithmetic operations",
+          "cards": [
+            {
+              "id": "math_add_1",
+              "question": "What is 2 + 2?",
+              "answer": "4",
+              "category": "mathematics",
+              "subcategory": "arithmetic"
+            },
+            {
+              "id": "math_add_2",
+              "question": "What is 15 + 27?",
+              "answer": "42",
+              "category": "mathematics",
+              "subcategory": "arithmetic"
+            },
+            {
+              "id": "math_sub_1",
+              "question": "What is 10 - 7?",
+              "answer": "3",
+              "category": "mathematics",
+              "subcategory": "arithmetic"
+            }
+          ]
+        },
+        {
+          "id": "multiplication",
+          "name": "Multiplication",
+          "description": "Multiplication tables and operations",
+          "cards": [
+            {
+              "id": "math_mult_1",
+              "question": "What is 5 × 3?",
+              "answer": "15",
+              "category": "mathematics",
+              "subcategory": "multiplication"
+            },
+            {
+              "id": "math_mult_2",
+              "question": "What is 7 × 8?",
+              "answer": "56",
+              "category": "mathematics",
+              "subcategory": "multiplication"
+            },
+            {
+              "id": "math_mult_3",
+              "question": "What is 12 × 12?",
+              "answer": "144",
+              "category": "mathematics",
+              "subcategory": "multiplication"
+            }
+          ]
+        },
+        {
+          "id": "geometry",
+          "name": "Geometry",
+          "description": "Shapes, angles, and spatial concepts",
+          "cards": [
+            {
+              "id": "math_geo_1",
+              "question": "How many sides does a triangle have?",
+              "answer": "3",
+              "category": "mathematics",
+              "subcategory": "geometry"
+            },
+            {
+              "id": "math_geo_2",
+              "question": "What is the sum of angles in a triangle?",
+              "answer": "180 degrees",
+              "category": "mathematics",
+              "subcategory": "geometry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "description": "Scientific facts and concepts",
+      "subcategories": [
+        {
+          "id": "biology",
+          "name": "Biology",
+          "description": "Living organisms and life processes",
+          "cards": [
+            {
+              "id": "sci_bio_1",
+              "question": "What is the powerhouse of the cell?",
+              "answer": "Mitochondria",
+              "category": "science",
+              "subcategory": "biology"
+            },
+            {
+              "id": "sci_bio_2",
+              "question": "What process do plants use to make food?",
+              "answer": "Photosynthesis",
+              "category": "science",
+              "subcategory": "biology"
+            }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "description": "Elements, compounds, and reactions",
+          "cards": [
+            {
+              "id": "sci_chem_1",
+              "question": "What is the chemical symbol for water?",
+              "answer": "H2O",
+              "category": "science",
+              "subcategory": "chemistry"
+            },
+            {
+              "id": "sci_chem_2",
+              "question": "What is the atomic number of Carbon?",
+              "answer": "6",
+              "category": "science",
+              "subcategory": "chemistry"
+            }
+          ]
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "description": "Matter, energy, and forces",
+          "cards": [
+            {
+              "id": "sci_phys_1",
+              "question": "What is the speed of light in vacuum?",
+              "answer": "299,792,458 meters per second",
+              "category": "science",
+              "subcategory": "physics"
+            },
+            {
+              "id": "sci_phys_2",
+              "question": "What is Newton's first law of motion?",
+              "answer": "An object at rest stays at rest, and an object in motion stays in motion unless acted upon by an external force",
+              "category": "science",
+              "subcategory": "physics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft Knowledge",
+      "description": "Facts about Minecraft game mechanics",
+      "subcategories": [
+        {
+          "id": "crafting",
+          "name": "Crafting Recipes",
+          "description": "Common crafting recipes",
+          "cards": [
+            {
+              "id": "mc_craft_1",
+              "question": "How many wooden planks do you get from one log?",
+              "answer": "4",
+              "category": "minecraft",
+              "subcategory": "crafting"
+            },
+            {
+              "id": "mc_craft_2",
+              "question": "What materials are needed to craft a crafting table?",
+              "answer": "4 wooden planks",
+              "category": "minecraft",
+              "subcategory": "crafting"
+            }
+          ]
+        },
+        {
+          "id": "mobs",
+          "name": "Mobs",
+          "description": "Information about Minecraft mobs",
+          "cards": [
+            {
+              "id": "mc_mob_1",
+              "question": "What mob drops Ender Pearls?",
+              "answer": "Enderman",
+              "category": "minecraft",
+              "subcategory": "mobs"
+            },
+            {
+              "id": "mc_mob_2",
+              "question": "How much health does a player have?",
+              "answer": "20 health points (10 hearts)",
+              "category": "minecraft",
+              "subcategory": "mobs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
