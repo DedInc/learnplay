@@ -139,10 +139,6 @@ Configuration is stored in `config/learnplay/config.json`:
 }
 ```
 
-## 🎨 Screenshots
-
-<!-- Add screenshots here -->
-
 ## 🛠️ Building from Source
 
 ### Prerequisites
